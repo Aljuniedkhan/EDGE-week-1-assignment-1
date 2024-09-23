@@ -1,0 +1,182 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menus {
+    display: flex;
+    gap: 8px;
+
+}
+
+.btn-primary {
+    height: 30px;
+    margin-top: 12px;
+    background-color: orangered;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
+.R {
+    color: orange;
+}
+
+/* banner section ccs styles */
+.header {
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.image {
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.grettings {
+    font-weight: 200;
+    font-size: xx-large;
+    margin-bottom: 40px;
+}
+
+.names {
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+/* about me css styles */
+.about-me {
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 15px;
+
+
+}
+
+.info2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+
+/* what i do section css styles */
+.what-i-do{
+    margin-top: 50px;
+}
+.intro-part {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.skills {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    column-gap: 40px;
+}
+
+.box1 {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.box2 {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.box3 {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.box4 {
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+/* summary of resume css styles */
+.resume-section {
+    margin-top: 50px;
+}
+
+.resume-heading {
+    text-align: center;
+}
+
+.my-education-title {
+    font-weight:bold;
+}
+
+.education-experience {
+    display: flex;
+    column-gap: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.resume-section .download-Cv-btn {
+    display: flex;
+    justify-content: center;
+}
+
+/* input fields css styles */
+.input-fields {
+    display: flex;
+    flex-direction: column;
+   
+    gap: 20px;
+   
+}
+.input-fields, input{
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+.input-fields, textarea{
+    width: 90%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+.input-fields, button{
+    width: 30%;
+}
+
+.connect-message-me-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding:60px 60px 60px 60px;
+    margin-top: 80px;
+}
