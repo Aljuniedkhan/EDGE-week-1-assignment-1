@@ -82,9 +82,10 @@
 }
 
 /* what i do section css styles */
-.what-i-do{
+.what-i-do {
     margin-top: 50px;
 }
+
 .intro-part {
     text-align: center;
     margin-left: 150px;
@@ -134,7 +135,7 @@
 }
 
 .my-education-title {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .education-experience {
@@ -153,30 +154,51 @@
 .input-fields {
     display: flex;
     flex-direction: column;
-   
+
     gap: 20px;
-   
+
 }
-.input-fields, input{
+
+.input-fields,
+input {
     width: 90%;
     padding: 20px 20px 20px 20px;
     border-radius: 5px;
     border: 0px;
 }
-.input-fields, textarea{
+
+.input-fields,
+textarea {
     width: 90%;
     padding: 20px 20px 20px 20px;
     border-radius: 5px;
     border: 0px;
 }
-.input-fields, button{
+
+.input-fields,
+button {
     width: 30%;
 }
 
-.connect-message-me-section{
+.connect-message-me-section {
     display: flex;
     justify-content: space-around;
     background-color: antiquewhite;
-    padding:60px 60px 60px 60px;
+    padding: 60px 60px 60px 60px;
     margin-top: 80px;
+}
+
+/* all hover css code is here  */
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+    background: linear-gradient(to right, #87CEEB, white);
+}
+
+.connect-message-me-section:hover {
+    background: linear-gradient(to right, #87CEEB, white);
+}
+.about-me:hover{
+    background: linear-gradient(to right, #87CEEB, white);
 }
